@@ -1,3 +1,6 @@
+body {
+    font-family: arial, sans-serif;
+}
 header {
     background-color: #fafafa;
     position: absolute;
@@ -10,7 +13,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding: 20px 0px;
+    padding: 20px 0px 10px 0px;
 }
 #topnav1 > div:first-child {
     display: flex;
@@ -113,6 +116,7 @@ svg {
     text-decoration: none;
     margin-right: 15px;
     color: #777;
+    font-size: 13px;
 }
 #topNav2 > ul > li > a:hover {
     color: #222;
@@ -130,7 +134,7 @@ svg {
 
 main {
     position: absolute;
-    top: 141px;
+    top: 130px;
     padding-left: 140px;
 }
 #nbresult {
@@ -139,4 +143,63 @@ main {
     font-size: small;
     margin: 15px 0px 20px 0px;
     padding-left: 15px;
+}
+#firstMatch {
+    width: 632px;
+    height: 280px;
+    border: 1px solid #ebebeb;
+    position: relative;
+}
+#firstMatch > div > b {
+    /* width: 357px; */
+    /* height: 53px; */
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: left;
+}
+#firstMatch > div:first-child {
+    width: 357px;
+    height: 53px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#firstMatch > a > img {
+    width: 211px;
+    height: 91px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#firstMatch > div > ol > li {
+    margin-bottom: 4px;
+}
+#firstMatch > div > ol {
+    padding-inline-start: 30px;
+    padding-top: 10px;
+}
+#firstMatch > div > a {
+    font-size: small;
+    text-decoration: none;
+    color: #777;
+    margin-left: 30px;
+    font-size: 14px;
+}
+#firstMatch > div > a:hover {
+    text-decoration: underline;
+}
+.websiteLink > h3 > a {
+    text-decoration: none;
+    color: #1a0dab;
+    font-weight: 400;
+}
+.websiteLink > h3 {
+    margin-bottom: 0;
+}
+.websiteLink > div {
+    color: #006621;
+    font-size: 14px;
+    font-weight: 400;
+}
+.websiteLink {
+    padding-left: 10px;
 }
