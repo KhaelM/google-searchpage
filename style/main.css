@@ -203,3 +203,39 @@ main {
 .websiteLink {
     padding-left: 10px;
 }
+#aboutbestresult {
+    width: 16px;
+    height: 16px;
+    fill: gray;
+    position: static;
+}
+#bestinfo > a:last-child {
+    font-size: small;
+    color: #777;
+    text-decoration: none;
+}
+#bestinfo > a:last-child:hover {
+    text-decoration: underline;
+}
+#morebstInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#morebstInfo > div:nth-child(2) > a:last-child {
+    font-size: small;
+    color: #777;
+    text-decoration: none;
+}
+#morebstInfo > div:nth-child(2) > a:last-child:hover {
+    text-decoration: underline;
+}
+#morebstInfo > div:nth-child(2) > a:first-child > svg {
+    width: 16px;
+    height: 16px;
+    fill: gray;
+    position: static;
+}
+#morebstInfo > div {
+    margin-right: 20px;
+}
