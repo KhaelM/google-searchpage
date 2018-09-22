@@ -381,7 +381,6 @@ main > .websiteLink {
 #popularsearchblock {
     width: 600px;
     height: 142px;
-    border: 1px solid #ebebeb;
     margin-top: 50px;
     padding-left: 10px;
 }
@@ -402,4 +401,115 @@ main > .websiteLink {
 }
 #popularsearchblock > div > p > a:hover {
     text-decoration: underline;
+}
+#pagination {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pagination > table tr:first-child td {
+    background: url('../image/googleLogoListPagination.png') ;
+    height: 40px;
+    padding: 0;
+}
+#pagination > table tr td:nth-child(1) {
+    background-position: -24px 0;
+    width: 25px;
+}
+#pagination > table tr td:nth-child(2) {
+    background-position: -53px 0;
+    width: 18px;
+}
+#pagination > table tr td:nth-child(3),
+#pagination > table tr td:nth-child(4),
+#pagination > table tr td:nth-child(5),
+#pagination > table tr td:nth-child(6),
+#pagination > table tr td:nth-child(7),
+#pagination > table tr td:nth-child(8),
+#pagination > table tr td:nth-child(9),
+#pagination > table tr td:nth-child(10),
+#pagination > table tr td:nth-child(11) {
+    background-position: -74px 0;
+    width: 18px;
+}
+#pagination > table tr td:nth-child(12) {
+    background-position: -96px 0;
+    width: 68px;
+}
+#pagination > table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+    color: #4285f4;
+    font-size: small;
+}
+#pagination > table tr:last-child td a:hover {
+    text-decoration: underline;
+}
+#pagination > table tr:last-child td a {
+    text-decoration: none;
+}
+#pagination > table tr:last-child td:last-child {
+    text-align: right;
+    position: relative;
+    left: 10px;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 2215px;
+    left: 0px;
+    width: 100%;
+}
+footer > div {
+    padding: 15px 0 15px 160px;
+    border-top: 1px solid #e4e4e4;
+    box-sizing: initial;
+}
+footer > div > div {
+    display: inline-block;
+}
+footer > div:first-child > div:first-child {
+    color: rgba(0,0,0,.54);
+    padding-right: 10px;
+}
+footer > div:first-child > div:last-child {
+    border-left: 1px solid rgb(228, 228, 228);
+    padding-left: 20px;
+    font-size: small;
+    color: #aaa;
+}
+footer > div:first-child > div:last-child > a {
+    text-decoration: none;
+    color: #777;
+}
+footer > div:first-child > div:last-child > a:hover {
+    color: #333;
+}
+#circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #9e9e9e;
+}
+footer > div:last-child > a {
+    color: #777;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer > div:last-child > a:hover {
+    color: #333;
+}
+.arrow-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #006621;
 }
