@@ -151,8 +151,6 @@ main {
     position: relative;
 }
 #firstMatch > div > b {
-    /* width: 357px; */
-    /* height: 53px; */
     font-size: 16px;
     line-height: 1.2;
     text-align: left;
@@ -308,4 +306,100 @@ main {
 main > .websiteLink {
     clear: both;
     margin-top: 25px;
+}
+#relatedSearchBlock {
+    border: 1px solid #ebebeb;
+    width: 632px;
+    height: 160px;
+    margin-top: 20px;
+    padding: 16px 0;
+}
+#relatedSearchBlock > div:first-child {
+    color: #777;
+    margin: 0 0 3px 16px;
+    font-size: small;
+    line-height: 1.2;
+    text-align: left;
+}
+#relatedSearchBlock > div:nth-child(2) {
+    margin: 0 16px;
+    font-size: 18px;
+}
+#relatedSearchBlock > div:nth-child(3) {
+    width: 632px;
+    height: 121px;
+    position: relative;
+}
+#relatedSearchBlock > div:nth-child(3) > div:first-child {
+    position: absolute;
+    right: 15px;
+    top: -17px;
+    font-size: small;
+}
+#relatedSearchBlock > div:nth-child(3) > div:first-child > a {
+    text-decoration: none;
+    color: #777;
+}
+#relatedSearchBlock > div:nth-child(3) > div:first-child > a:hover {
+    text-decoration: underline;
+}
+#relatedSearchBlock > div:nth-child(3) > div:last-child {
+    padding: 14px 0 4px 0;
+}
+#relatedSearchBlock > div:nth-child(3) > div:last-child > div {
+    width: 72px;
+    height: 110px;
+    padding-left: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+#relatedSearchBlock > div:nth-child(3) > div:last-child > div > a {
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: small;
+}
+#relatedSearchBlock > div:nth-child(3) > div:last-child > div > a > div {
+    margin-top: 5px;
+    width: 72px;
+}
+#feedbackrelsearch {
+    margin-top: 5px;
+    float: right;
+    margin-right: 10px;
+}
+#feedbackrelsearch > a {
+    font-size: small;
+    color: #777;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+}
+#feedbackrelsearch > a:hover {
+    text-decoration: underline;
+}
+#popularsearchblock {
+    width: 600px;
+    height: 142px;
+    border: 1px solid #ebebeb;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+#popularsearchblock > h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+#popularsearchblock > div {
+    display: inline-block;
+}
+#popularsearchblock > div > p > a, #popularsearchblock > div > p > b > a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 10px;
+    padding-right: 30px;
+}
+#popularsearchblock > div > p > a:hover {
+    text-decoration: underline;
 }
